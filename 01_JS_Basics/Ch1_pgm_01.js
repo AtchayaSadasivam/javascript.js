@@ -1,6 +1,6 @@
 // Using console.log to display information
 
-console.log("Welcome to my Website!");
+console.log("Welcome to JS!");
 console.log("Helo Everyone");
 
 
