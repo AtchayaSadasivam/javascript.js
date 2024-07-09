@@ -5,6 +5,13 @@ var book;
 book = {
     title : "The Hobbit"
 };
+console.log(book);
+
+var book2;
+book2 = {
+    title : "War and peace"
+};
+console.log(book2);
 
 
 
