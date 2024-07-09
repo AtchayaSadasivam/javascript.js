@@ -2,6 +2,7 @@
 
 var book1;
 var book2;
+var book3;
 
 book1 = {
     title : "The Hobbit",
@@ -12,6 +13,14 @@ book2 = {
 	title : "Northern Lights",
 	author : "Philip Pullman"
 };
+
+book3 = {
+	title : " The story of Yesterday ",
+	author : " Sergio Cobo "
+};
+ console.log(book1);
+ console.log(book2);
+ console.log(book3);
 
 
 
