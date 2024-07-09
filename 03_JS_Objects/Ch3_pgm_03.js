@@ -3,12 +3,23 @@
 var book;
 
 book = {
-    title : "The Hobbit",
-    author : "J. R. R. Tolkien",
+    title : " Invisible Monsters ",
+    author : " J. R. R. Tolkien ",
     published : 1937
 };
 
 console.log(book);
+
+var book2;
+
+book2 = {
+    title : " War and Peace ",
+    author : "Leo Tolstoy",
+    published : 1967
+};
+
+console.log(book2);
+
 
 
 
