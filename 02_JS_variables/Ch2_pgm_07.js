@@ -1,9 +1,11 @@
 // Declaring and assigning in one step
-
+var health = 123;
 var playerName = "Kandra";
 var locationName = "The Dungeon of Doom";
+var message;
 
-console.log(playerName + " is in " + locationName);
+message = playerName + " has health " + health + " and is in " + locationName;
+console.log(message);
 
 
 
