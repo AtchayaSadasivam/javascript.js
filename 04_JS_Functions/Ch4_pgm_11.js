@@ -41,7 +41,46 @@ showMovieInfo();
 movie = movie3;
 showMovieInfo();
 
+var question1;
+question1 = {
+    question:"What is the capital of France?",
+    options:["Berlin","Madrid","Paris","Rome"],
+    answer:"Paris"
+};
 
+var question2;
+question2 = {
+    question:"What does HTML stand for?",
+    options:["Hyper Text Markup Language","Hyperlinks and Text Markup Language","Home Tool Markup Language"],
+    answer:"Hyper Text Markup Language"
+};
+
+var question3;
+question3 = {
+    question:"Who is making the Web Standards?",
+    options:["Google","Microsoft","The World Wide Web Consortium","Mozilla"],
+    answer: "The World Wide Web Consortium"
+};
+var showQuizQuestion;
+
+showQuizQuestion = function () {
+    console.log("Question: " + quizQuestion.question);
+    console.log("Options: ");
+    for (var i = 0; i < quizQuestion.options.length; i++) {
+        console.log((i + 1) + ". " + quizQuestion.options[i]);
+    }
+    console.log("------------------------------");
+};
+var quizQuestion;
+
+quizQuestion = question1;
+showQuizQuestion();
+
+quizQuestion = question2;
+showQuizQuestion();
+
+quizQuestion = question3;
+showQuizQuestion();
 
 /* Further Adventures
  *
