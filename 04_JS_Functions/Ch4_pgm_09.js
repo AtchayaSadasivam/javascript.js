@@ -10,7 +10,13 @@ showMovieInfo = function () {
   console.log("------------------------------");
 };
 
+var movie = {
+     title: "Theri",
+     actors:"Vijay,Samantha,Rathiga",
+     directors:"Aatle"
 
+};
+showMovieInfo();
 
 /* Further Adventures
  *
