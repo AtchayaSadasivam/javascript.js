@@ -14,6 +14,21 @@ console.log(player.name + " is in " + player.place);
 console.log(player.name + " has health " + player.health);
 console.log("Items: " + player.items);
 
+var player2;
+
+player2 = {
+    name: "Aparna",
+    health: 40,
+    place: "Coimbatore,Tamilnadu",
+    items: "a rusty key, The Sword of Destiny,peace"
+};
+
+console.log(player2.name);
+console.log(player2.name + " is in " + player2.place);
+console.log(player2.name + " has health " + player2.health);
+console.log("Items: " + player2.items);
+
+
 
 
 /* Further Adventures
