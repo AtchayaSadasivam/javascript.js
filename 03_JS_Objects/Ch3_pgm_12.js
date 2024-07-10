@@ -7,6 +7,17 @@ var post = {
 	created : "2015-06-21",
 	body : "You will not believe where I just woke up!! Only on a comet..."
 };
+console.log(post.title);
+
+var post1 = {
+	id : 1,
+	title : " Northern Lights ",
+	author : "Philip Pullman",
+	created : "2005-09-11",
+	body : " Make it work, make it right, make it fast..."
+};
+console.log(post1.body);
+
 
 
 
