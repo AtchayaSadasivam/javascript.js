@@ -1,7 +1,7 @@
 // Using the findTotal function to display a calculation
 
 var number1 = 1000;
-var number2 = 66;
+var number2 = 67;
 var result;
 var findTotal;
 
