@@ -4,14 +4,37 @@ var showSum;
 
 showSum = function (number1, number2) {
 	var total = number1 + number2;
-	console.log("The sum is " + total);
+	console.log("The sum is: " + total);
 };
 
 showSum(30, 23);
 showSum(2.8, -5);
+showSum(56,74);
 
+ var showproduct;
+ showproduct = function (number1, number2){
+    var total = number1 * number2;
+	console.log(" The Multiple is: " + total);
+ };
+ showproduct(3,5);
+ showproduct(4,7);
+ showproduct(27,89);
 
+var showQuotient;
+showQuotient = function (number1,number2){
+	var total = number1 / number2;
+	console.log("The divide is :" + total);
+}
+showQuotient(600,5);
+showQuotient(256,8);
 
+var showDifference;
+showDifference = function (number1,number2){
+	var total = number1 - number2;
+	console.log("The difference is:" + total);
+}
+showDifference(25,4);
+showDifference(43,9);
 /* Further Adventures
  *
  * 1) Use the showSum function to add 56 and 74.
