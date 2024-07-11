@@ -1,14 +1,18 @@
 // Calling the same function with different arguments
 
 var showMessage;
+var mymessage;
+
+mymessage = "Programming is the art of algorithm design and the craft of debugging errant code.";
 
 showMessage = function (message) {
-	console.log("The message is: " + message);
+	console.log("The message is: \n" + message);
 };
 
 showMessage("It's full of stars!");
 showMessage("Hello to Jason Isaacs");
 showMessage("Hello to Jason Isaacs and Stephen Fry");
+showMessage(mymessage);
 
 
 
