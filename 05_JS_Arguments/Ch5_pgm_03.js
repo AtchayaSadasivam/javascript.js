@@ -6,8 +6,9 @@ showMessage = function (message) {
 	console.log("The message is: " + message);
 };
 
-showMessage("It's full of stars!");
-
+showMessage("Happiness is a journey, not a destination.")
+showMessage("Make it work, make it right, make it fast.")
+showMessage("Programming is the art of algorithm design and the craft of debugging errant code.")
 
 
 /* Further Adventures
