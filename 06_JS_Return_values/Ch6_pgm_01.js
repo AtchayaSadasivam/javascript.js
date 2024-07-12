@@ -2,14 +2,24 @@
 
 var getMessage;
 var response;
+var getMyMessage;
 
 getMessage = function () {
     return "I’m going on an adventure!";
 };
 
+getMyMessage = function () {
+    return "Talk is cheap. Show me the code";
+};
+response = getMyMessage();
+console.log(response)
+
+
 response = getMessage();
 
 console.log(response);
+
+
 
 
 
