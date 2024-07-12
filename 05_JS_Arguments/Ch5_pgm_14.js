@@ -1,7 +1,14 @@
 // Displaying a player's information using properties
+var showLine = function(length) {
+    var line = "-------------------------------------------";
+    console.log(line.substring(0,length));
+};
 
 var showPlayerName = function (playerName) {
-    console.log(playerName);
+    var length = playerName.length + 4;
+    showLine(length);
+    console.log("- " + playerName + " -");
+    showLine(length);
 };
 
 var showPlayerHealth = function (playerName, playerHealth) {
@@ -38,6 +45,20 @@ var player2 = {
     health: 40
 };
 
+showPlayerInfo(player1.name, player1.place, player1.health);
+showPlayerInfo(player2.name, player2.place, player2.health);
+
+var showLine = function(length) {
+    var line = "******************************************";
+    console.log(line.substring(0,length));
+};
+
+var showPlayerName = function (playerName) {
+    var length = playerName.length +4;
+    showLine(length);
+    console.log("* " + playerName + " *");
+    showLine(length);
+};
 showPlayerInfo(player1.name, player1.place, player1.health);
 showPlayerInfo(player2.name, player2.place, player2.health);
 
