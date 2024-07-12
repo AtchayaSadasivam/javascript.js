@@ -8,11 +8,21 @@ add = function (number1, number2) {
 	return total;
 };
 
-var sum = add(50, 23);
+var num1 = 50;
+var num2 = 23;
+var sum = add(num1,num2);
+console.log(' The sum of ' + num1 + ' and ' + num2 + ' is ' + sum);
 
+var sum1 = add(add(23,14),90);
+console.log(sum1);
+
+var addThreeNumbers = function (number1, number2, number3) {
+    var total = number1 + number2 + number3;
+    return total;
+};
+
+var sum = addThreeNumbers(10, 20, 30);
 console.log(sum);
-
-
 
 /* Further Adventures
  *
