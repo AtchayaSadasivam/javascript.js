@@ -3,10 +3,21 @@
 var getPlayerName;
 
 getPlayerName = function (playerName) {
-    return playerName;
+    var decoratedName = "=====" + playerName + "=====";
+    var borderedName = "|\n|" + playerName + "\n|";
+    return {
+        decoratedName: decoratedName,
+        borderedName:borderedName
+    };
 };
 
-console.log(getPlayerName("Kandra"));
+var playerName = "Kandra";
+console.log(getPlayerName("kiki").decoratedName);
+console.log(getPlayerName("Mahesha").decoratedName);
+console.log(getPlayerName("Jahver").borderedName);
+
+var msg = "\na\nb\n";
+ console.log(msg);
 
 
 
