@@ -9,6 +9,7 @@ getMessage = function () {
     return "I’m going on an adventure!"; 
 };
 
+
 getHelloTo = function (name) {
     return "Hello to " + name;
 };
