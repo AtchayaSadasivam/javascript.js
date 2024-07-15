@@ -4,8 +4,15 @@ var planet = "Jupiter";
 var bigPlanet = planet.toUpperCase();
 
 console.log(planet + " becomes " + bigPlanet);
-
-
+ function getBig(str) {
+    return str.toUpperCase();
+ }
+function getSmall(str) {
+    return str.toLowerCase();
+}
+ var testString = "Celebrate the Little Successes! ";
+ console.log("Original: " + testString);
+ console.log("Lower cas: " + getSmall(testString));
 
 /* Further Adventures
  *
